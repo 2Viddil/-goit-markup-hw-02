@@ -3,6 +3,23 @@
 .body {
 
 }
+ .logo {
+    list-style: none;
+    font-family: Raleway, sans-serif;
+
+    width: 145px;
+height: 31px;
+left: 215px;
+top: 24px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 31px;
+letter-spacing: 1.2;
+}
+
 /*header*/
 .web{
     color:#2196F3
@@ -11,10 +28,41 @@
     color: black;
 }
 
-.filter-button,
-.filters-nav  li:hover{
-    color: #2196F3
-    ;
+.header-nav{
+
+
+    list-style: none;
+}
+
+.mail .tel{
+    color:rgba( 255, 255, 255, 0.6);
+    color: #fff;
+}
+
+.button:active{
+    background-color: #2196F3;
+    color:#fff;
 }
 
 
+/*futer*/
+
+.futer{
+    background-color: #2F303A;
+}
+
+.logo-logo{
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 31px;
+    letter-spacing: 1.2}
+.futer-web{
+    color: #2196F3;
+}
+
+.futer-studio{
+    color: #fff;
+}
