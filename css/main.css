@@ -1,68 +1,237 @@
-
+/*Header*/
 
 .body {
-
+    background-color: #fff;
 }
- .logo {
+
+.logo {
     list-style: none;
     font-family: Raleway, sans-serif;
 
     width: 145px;
-height: 31px;
-left: 215px;
-top: 24px;
+    height: 31px;
+    left: 215px;
+    top: 24px;
 
-font-family: 'Raleway';
-font-style: normal;
-font-weight: 700;
-font-size: 26px;
-line-height: 31px;
-letter-spacing: 1.2;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 1.2;
+}
+
+.mail a {
+    color: #2196F3;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 1.14;
+}
+
+.tel a {
+    color: #757575;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 1.14;
 }
 
 /*header*/
-.web{
-    color:#2196F3
+.web {
+    color: #2196F3
 }
-.studio{
+
+.studio {
     color: black;
 }
 
-.header-nav{
-
-
-    list-style: none;
+.header-navigation a {
+    color: #212121;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 1.14;
 }
 
-.mail .tel{
-    color:rgba( 255, 255, 255, 0.6);
-    color: #fff;
-}
-
-.button:active{
-    background-color: #2196F3;
-    color:#fff;
-}
-
-
-/*futer*/
-
-.futer{
-    background-color: #2F303A;
-}
-
-.logo-logo{
-
-font-family: 'Raleway';
-font-style: normal;
-font-weight: 700;
-font-size: 26px;
-line-height: 31px;
-    letter-spacing: 1.2}
-.futer-web{
+.header-navigation a:hover {
     color: #2196F3;
 }
 
-.futer-studio{
+/*------Main------*/
+/*Filters*/
+.h1 {}
+
+.h1 {
     color: #fff;
+    background-color: #2F303A;
+    width: 1600px;
+    height: 600px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    letter-spacing: 1.36;
+
+    text-align: center;
+    letter-spacing: 1.36;
+    text-transform: uppercase;
+}
+
+.button-h1:active {
+    color: #212121;
+    align-items: center;
+}
+
+.button-h1 {
+    background-color: #2196F3;
+    color: #fff;
+    width: 216px;
+    height: 50px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 1.87;
+}
+
+.advantage {
+    background-color: #fff;
+}
+
+.advantage h3 {
+    width: 270px;
+    height: 16px;
+    color: #212121;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 1.5;
+    text-transform: uppercase;
+}
+
+.What-do-we-do h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 1.16;
+}
+
+
+.button {
+    background-color: #F5F4FA;
+    display: inline-block;
+    padding: 6px 22px;
+    color: #212121;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 2;
+}
+
+.button:hover {
+    background-color: #2196F3;
+    color: #fff;
+}
+
+
+/*Our works*/
+.our-works h3 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 2;
+}
+
+.works-p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 1.87;
+    color: #757575;
+}
+
+/*futer*/
+
+.futer {
+    background-color: #2F303A;
+    width: 1600px;
+    height: 252px;
+}
+
+.logo-logo {
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 1.2
+}
+
+.futer-web {
+    color: #2196F3;
+}
+
+.futer-studio {
+    color: #fff;
+}
+
+/*--Contacts*/
+
+.addres a {
+    color: #fff;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 1.7;
+}
+
+.futer-mail a {
+    color: rgba(255, 255, 255, 0.6);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 1.14;
+}
+
+.futer-tel a {
+    color: rgba(255, 255, 255, 0.6);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 1.14;
 }
