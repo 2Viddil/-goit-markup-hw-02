@@ -1,11 +1,17 @@
-/*Header*/
+/*Head*/
 
-.body {
+.root {}
+
+body {
     background-color: #fff;
 }
 
+.link {
+    text-decoration: none;
+}
+
 .logo {
-    list-style: none;
+    text-decoration: none;
     font-family: Raleway, sans-serif;
 
     width: 145px;
@@ -14,10 +20,9 @@
     top: 24px;
 
     font-family: 'Raleway';
-    font-style: normal;
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1.2;
     letter-spacing: 1.2;
 }
 
@@ -25,20 +30,19 @@
     color: #2196F3;
 
     font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 1.14;
 }
 
 .tel a {
+
     color: #757575;
     font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 1.14;
 }
 
@@ -52,12 +56,12 @@
 }
 
 .header-navigation a {
+
     color: #212121;
     font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 1.14;
 }
 
@@ -72,14 +76,13 @@
 .h1 {
     color: #fff;
     background-color: #2F303A;
-    width: 1600px;
-    height: 600px;
+    /* width: 1600px;
+    height: 600px;*/
 
     font-family: 'Roboto';
-    font-style: normal;
     font-weight: 900;
     font-size: 44px;
-    line-height: 60px;
+    line-height: 1.36;
     letter-spacing: 1.36;
 
     text-align: center;
@@ -99,14 +102,28 @@
     height: 50px;
 
     font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 16px;
-    line-height: 30px;
+    line-height: 1.87;
     display: flex;
     align-items: center;
     text-align: center;
     letter-spacing: 1.87;
+}
+
+.visually-hidden{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0px;
+    padding: 0px;
+
+white-space: nowrap;
+clip-path: inset(100%);
+clip: rect(0 0 0 0);
+overflow: hidden;
+
 }
 
 .advantage {
@@ -119,20 +136,18 @@
     color: #212121;
 
     font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.5;
     letter-spacing: 1.5;
     text-transform: uppercase;
 }
 
 .What-do-we-do h2 {
     font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 36px;
-    line-height: 42px;
+    line-height: 1.16;
     text-align: center;
     letter-spacing: 1.16;
 }
@@ -144,10 +159,9 @@
     padding: 6px 22px;
     color: #212121;
     font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 18px;
-    line-height: 36px;
+    line-height: 2;
     letter-spacing: 2;
 }
 
@@ -160,19 +174,16 @@
 /*Our works*/
 .our-works h3 {
     font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 18px;
-    line-height: 36px;
+    line-height: 2;
     letter-spacing: 2;
 }
 
 .works-p {
     font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
-    line-height: 30px;
+    line-height: 1.87;
     letter-spacing: 1.87;
     color: #757575;
 }
@@ -181,17 +192,16 @@
 
 .futer {
     background-color: #2F303A;
-    width: 1600px;
-    height: 252px;
+    /*    width: 1600px;
+    height: 252px;    */
 }
 
 .logo-logo {
 
     font-family: 'Raleway';
-    font-style: normal;
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1.2;
     letter-spacing: 1.2
 }
 
@@ -209,29 +219,27 @@
     color: #fff;
 
     font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.7;
     letter-spacing: 1.7;
 }
 
 .futer-mail a {
+
     color: rgba(255, 255, 255, 0.6);
     font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 1.14;
 }
 
 .futer-tel a {
+
     color: rgba(255, 255, 255, 0.6);
     font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 1.14;
 }
