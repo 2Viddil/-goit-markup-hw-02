@@ -1,9 +1,28 @@
 /*Head*/
 
-.root {}
+:root {
+    --background-color: #fff;
+    --main-text-color: #212121;
+    --dark-section: #2F303A;
+    --white-section: #F5F4FA;
+    --p-color: #757575;
+    --activ-color: #2196F3;
+    --addres-color: #757575;
+    --box-color: #EEEEEE;
+    --logo-color: #000000;
+    --main-font: Roboto, sans-serif;
+}
 
 body {
-    background-color: #fff;
+    background-color: var(--background-color);
+    color: var(--main-text-color);
+    font-family: var(--main-text-color);
+    font-size: 14px;
+    letter-spacing: 0.03em;
+}
+
+.list{
+    list-style: none;
 }
 
 .link {
@@ -14,59 +33,60 @@ body {
     text-decoration: none;
     font-family: Raleway, sans-serif;
 
-    width: 145px;
-    height: 31px;
-    left: 215px;
-    top: 24px;
-
     font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
-    letter-spacing: 1.2;
 }
 
-.mail a {
-    color: #2196F3;
+.mail a{
+    color: var(--addres-color);
+}
+
+
+.mail a:hover {
+    color: var(--activ-color);
 
     font-family: 'Roboto';
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
-    letter-spacing: 1.14;
 }
 
-.tel a {
 
-    color: #757575;
+.tel a{
+    color: var(--addres-color);
+}
+
+.tel :hover {
+    color: var(--activ-color);
+
     font-family: 'Roboto';
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
-    letter-spacing: 1.14;
 }
 
 /*header*/
 .web {
-    color: #2196F3
+    color: var(--activ-color);
 }
 
 .studio {
-    color: black;
+    color: var(--logo-color);
 }
 
 .header-navigation a {
 
-    color: #212121;
+    color: var(--main-text-color);
     font-family: 'Roboto';
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
-    letter-spacing: 1.14;
 }
 
 .header-navigation a:hover {
-    color: #2196F3;
+    color: var(--activ-color);
 }
 
 /*------Main------*/
@@ -74,8 +94,8 @@ body {
 .h1 {}
 
 .h1 {
-    color: #fff;
-    background-color: #2F303A;
+    color: var(--background-color);
+    background-color: var(--dark-section);
     /* width: 1600px;
     height: 600px;*/
 
@@ -83,21 +103,19 @@ body {
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
-    letter-spacing: 1.36;
 
     text-align: center;
-    letter-spacing: 1.36;
     text-transform: uppercase;
 }
 
 .button-h1:active {
-    color: #212121;
+    color: var(--main-text-color);
     align-items: center;
 }
 
 .button-h1 {
-    background-color: #2196F3;
-    color: #fff;
+    background-color: var(--activ-color);
+    color: var(--background-color);
     width: 216px;
     height: 50px;
 
@@ -108,10 +126,9 @@ body {
     display: flex;
     align-items: center;
     text-align: center;
-    letter-spacing: 1.87;
 }
 
-.visually-hidden{
+.visually-hidden {
     position: absolute;
     width: 1px;
     height: 1px;
@@ -119,27 +136,26 @@ body {
     border: 0px;
     padding: 0px;
 
-white-space: nowrap;
-clip-path: inset(100%);
-clip: rect(0 0 0 0);
-overflow: hidden;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 
 }
 
 .advantage {
-    background-color: #fff;
+    background-color: var(--background-color);
 }
 
 .advantage h3 {
     width: 270px;
     height: 16px;
-    color: #212121;
+    color: var(--main-text-color);
 
     font-family: 'Roboto';
     font-weight: 700;
     font-size: 14px;
     line-height: 1.5;
-    letter-spacing: 1.5;
     text-transform: uppercase;
 }
 
@@ -149,7 +165,6 @@ overflow: hidden;
     font-size: 36px;
     line-height: 1.16;
     text-align: center;
-    letter-spacing: 1.16;
 }
 
 
@@ -157,17 +172,21 @@ overflow: hidden;
     background-color: #F5F4FA;
     display: inline-block;
     padding: 6px 22px;
-    color: #212121;
+    color: var(--main-text-color);
     font-family: 'Roboto';
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
-    letter-spacing: 2;
 }
 
 .button:hover {
-    background-color: #2196F3;
-    color: #fff;
+    background-color: var(--activ-color);
+    color: var(--background-color);
+}
+
+/*--Our team--*/
+.team{
+    background-color: var(--white-section);
 }
 
 
@@ -177,21 +196,19 @@ overflow: hidden;
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
-    letter-spacing: 2;
 }
 
 .works-p {
     font-family: 'Roboto';
     font-size: 16px;
     line-height: 1.87;
-    letter-spacing: 1.87;
-    color: #757575;
+    color: var(--addres-color);
 }
 
 /*futer*/
 
 .futer {
-    background-color: #2F303A;
+    background-color: var(--dark-section);
     /*    width: 1600px;
     height: 252px;    */
 }
@@ -202,26 +219,24 @@ overflow: hidden;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
-    letter-spacing: 1.2
 }
 
 .futer-web {
-    color: #2196F3;
+    color: var(--activ-color);
 }
 
 .futer-studio {
-    color: #fff;
+    color: var(--background-color);
 }
 
 /*--Contacts*/
 
 .addres a {
-    color: #fff;
+    color: var(--background-color);
 
     font-family: 'Roboto';
     font-size: 14px;
     line-height: 1.7;
-    letter-spacing: 1.7;
 }
 
 .futer-mail a {
@@ -231,8 +246,9 @@ overflow: hidden;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
-    letter-spacing: 1.14;
 }
+
+
 
 .futer-tel a {
 
@@ -241,5 +257,9 @@ overflow: hidden;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
-    letter-spacing: 1.14;
+}
+
+.futer-tel a:hover, 
+.futer-mail a:hover{
+    color: var(--activ-color);
 }
