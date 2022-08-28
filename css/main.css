@@ -33,53 +33,43 @@ img {
     text-decoration: none;
 }
 
-.menu,
-.What-do-we-do-list,
-.img-team,
-.header-menu,
-.contacts,
-.advantage-list {
-    display: flex;
+button {
+    cursor: pointer;
 }
 
 .logo {
-    text-decoration: none;
-    font-family: Raleway, sans-serif;
-
     font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
 }
 
+
 .mail a {
     color: var(--addres-color);
-}
 
-
-.mail a:hover {
-    color: var(--activ-color);
-
-    font-family: 'Roboto';
     font-weight: 500;
-    font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
 }
 
+.mail a:hover,
+.mail a:focus {
+    color: var(--activ-color);
+
+}
 
 .tel a {
     color: var(--addres-color);
-}
 
-.tel :hover {
-    color: var(--activ-color);
-
-    font-family: 'Roboto';
     font-weight: 500;
-    font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
+}
+
+.tel a:hover,
+.tel a:focus {
+    color: var(--activ-color);
 }
 
 /*header*/
@@ -95,18 +85,17 @@ img {
     color: var(--activ-color);
 }
 
-.header-navigation a {
+.header-nav {
 
     color: var(--main-text-color);
-    font-family: 'Roboto';
     font-weight: 500;
-    font-size: 14px;
     line-height: 1.14;
 }
 
-.current{
+.header-navigation .current a {
     color: #2196F3;
 }
+
 
 
 /*------Main------*/
@@ -114,7 +103,7 @@ img {
 .hiro {}
 
 .hiro {
- 
+
     background-color: var(--dark-section);
     /* width: 1600px;
     height: 600px;*/
@@ -122,7 +111,7 @@ img {
 
 }
 
-.hiro-title{
+.hiro-title {
     color: var(--background-color);
 
     font-family: 'Roboto';
@@ -146,7 +135,6 @@ img {
     width: 216px;
     height: 50px;
 
-    font-family: 'Roboto';
     font-weight: 700;
     font-size: 16px;
     line-height: 1.87;
@@ -176,28 +164,24 @@ img {
 }
 
 .advantage h3 {
-   
+
     color: var(--main-text-color);
 
-    font-family: 'Roboto';
     font-weight: 700;
-    font-size: 14px;
     line-height: 1.5;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
 
 .advantage p,
-.team p,
-.our-works p{
-     color: #757575;
-
-font-size: 14px;
-line-height: 24px;
+.our-works p {
+    color: #757575;
+    font-size: 16px;
+    line-height: 24px;
 }
 
-.What-do-we-do h2 {
-    font-family: 'Roboto';
+.What-do-we-do h2,
+.h2-team {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
@@ -210,15 +194,19 @@ line-height: 24px;
     display: inline-block;
     padding: 6px 22px;
     color: var(--main-text-color);
-    font-family: 'Roboto';
     font-weight: 700;
-    font-size: 18px;
-    line-height: 2;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+
 }
+
 
 .button:hover {
     background-color: var(--activ-color);
     color: var(--background-color);
+
 }
 
 /*--Our team--*/
@@ -226,20 +214,40 @@ line-height: 24px;
     background-color: var(--white-section);
 }
 
+.team h3 {
+    color: var(--main-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.team p {
+    color: #757575;
+
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
 
 /*Our works*/
 .our-works h3 {
-    font-family: 'Roboto';
+    color: var(--main-text-color);
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
+    letter-spacing: 0.06em;
 }
 
 .works-p {
-    font-family: 'Roboto';
+    color: var(--addres-color);
+
     font-size: 16px;
     line-height: 1.87;
-    color: var(--addres-color);
+    letter-spacing: 0.06em;
 }
 
 /*futer*/
@@ -271,28 +279,14 @@ line-height: 24px;
 .addres a {
     color: var(--background-color);
 
-    font-family: 'Roboto';
-    font-size: 14px;
     line-height: 1.7;
 }
 
-.futer-mail a {
-
-    color: rgba(255, 255, 255, 0.6);
-    font-family: 'Roboto';
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-}
-
-
-
+.futer-mail a,
 .futer-tel a {
 
     color: rgba(255, 255, 255, 0.6);
-    font-family: 'Roboto';
     font-weight: 500;
-    font-size: 14px;
     line-height: 1.14;
 }
 
@@ -303,6 +297,6 @@ line-height: 24px;
 }
 
 .futer-tel a,
-.futer-mail a{
+.futer-mail a {
     font-style: normal;
 }
