@@ -86,16 +86,14 @@ button {
 }
 
 .header-nav {
-
     color: var(--main-text-color);
     font-weight: 500;
     line-height: 1.14;
 }
 
-.header-navigation .current a {
+.header-menu a .current {
     color: #2196F3;
 }
-
 
 
 /*------Main------*/
@@ -103,12 +101,9 @@ button {
 .hiro {}
 
 .hiro {
-
     background-color: var(--dark-section);
     /* width: 1600px;
     height: 600px;*/
-
-
 }
 
 .hiro-title {
@@ -176,8 +171,7 @@ button {
 .advantage p,
 .our-works p {
     color: #757575;
-    font-size: 16px;
-    line-height: 24px;
+    line-height: 1.71;
 }
 
 .What-do-we-do h2,
@@ -203,11 +197,18 @@ button {
 }
 
 
-.button:hover {
+.button:hover,
+.button:focus {
     background-color: var(--activ-color);
     color: var(--background-color);
 
 }
+
+.filter-nav .current a {
+    color: #2196F3;
+}
+
+
 
 /*--Our team--*/
 .team {
@@ -233,6 +234,8 @@ button {
     letter-spacing: 0.03em;
 }
 
+
+
 /*Our works*/
 .our-works h3 {
     color: var(--main-text-color);
@@ -248,6 +251,10 @@ button {
     font-size: 16px;
     line-height: 1.87;
     letter-spacing: 0.06em;
+}
+
+.header-navigation .header-menu a .filter-nav a .current a {
+    color: #2196F3;
 }
 
 /*futer*/
@@ -291,12 +298,24 @@ button {
 }
 
 .addres a:hover,
+.addres a:focus,
 .futer-tel a:hover,
-.futer-mail a:hover {
+.futer-tel a:focus,
+.futer-mail a:hover,
+.futer-mail a:focus {
     color: var(--activ-color);
 }
 
+.addres a,
 .futer-tel a,
 .futer-mail a {
     font-style: normal;
+}
+
+.futer-bg {
+    background-color: var(--dark-section);
+}
+
+.futer-bg .current a {
+    color: #2196F3;
 }
